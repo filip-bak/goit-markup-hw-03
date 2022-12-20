@@ -82,7 +82,7 @@ img {
 }
 .container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
 }
 .section {
   padding: 94px 0;
@@ -106,14 +106,13 @@ img {
 
 /* || General */
 body {
-  background-color: var(--bgcolor);
   margin: 0 auto;
-  width: 1600px;
-  /* min-height: 100vh; */
-  /* max-width: 100%;  */
+  max-width: 1600px;
+
   font-family: var(--ff);
   font-size: var(--fs);
   color: var(--font-color-primary);
+  background-color: var(--bgcolor);
 }
 
 /* || HEADER */
@@ -157,6 +156,8 @@ body {
 .contact__list {
   display: flex;
   gap: 50px;
+
+  white-space: nowrap;
 }
 .nav__link,
 .contact__link {
@@ -239,10 +240,7 @@ body {
   justify-content: center;
   gap: 30px;
 }
-.skill__item {
-  display: flex;
-  flex-flow: column;
-}
+
 .skill__title {
   margin-bottom: 10px;
 
@@ -265,7 +263,6 @@ body {
   justify-content: center;
   gap: 30px;
 }
-
 /* | TEAM */
 .team {
   background-color: var(--bgcolor-fade);
@@ -358,7 +355,7 @@ footer.section {
 /* | CARDS */
 .cards {
   margin: 0 auto 94px auto;
-  width: 1360px;
+  max-width: 1360px;
   margin-bottom: 94px;
 }
 .card__list {
