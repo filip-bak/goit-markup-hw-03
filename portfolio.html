@@ -17,42 +17,53 @@
 
   <body>
     <header class="header">
-      <a class="logo" href="./index.html"
-        ><span class="logo--primary">Web</span
-        ><span class="logo--secondary">Studio</span>
-      </a>
+      <div class="grid container">
+        <div class="grid__logo">
+          <a class="logo l-logo link--no-decoration" href="./index.html"
+            ><span class="logo--primary">Web</span
+            ><span class="logo--secondary">Studio</span>
+          </a>
+        </div>
 
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link link--hover" href="#">Agencja</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link link--hover" href="./portfolio.html"
-              >Portfolio</a
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link link--hover link--no-decoration" href="#"
+                >Agencja</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link link--hover link--no-decoration"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link--hover link--no-decoration" href="#"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a
+              class="contact__link contact--email link--hover link--no-decoration"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
-          <li class="nav__item">
-            <a class="nav__link link--hover" href="#">Kontakt</a>
+          <li>
+            <a
+              class="contact__link contact--telephone link--hover link--no-decoration"
+              href="tel:48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="contact__list">
-        <li class="contact__item">
-          <a
-            class="contact__link contact--email link--hover"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contact__item">
-          <a
-            class="contact__link contact--telephone link--hover"
-            href="tel:48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main class="main">
@@ -207,34 +218,40 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <a class="logo" href="./index.html"
-        ><span class="logo--primary">Web</span
-        ><span class="logo--secondary">Studio</span>
-      </a>
+    <footer class="footer section">
+      <div class="container">
+        <a class="logo link--no-decoration" href="./index.html"
+          ><span class="logo--primary">Web</span
+          ><span class="logo--secondary">Studio</span>
+        </a>
 
-      <address class="address">
-        <ul class="address__list">
-          <li class="address__item">
-            <a
-              class="address__street link--hover"
-              href="https://goo.gl/maps/t1FT8zSSvb9LW3xy8"
-              target="_blank"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li class="address__item">
-            <a class="address__link link--hover" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="address__item">
-            <a class="address__link link--hover" href="tel:48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="address__list">
+            <li class="address__item">
+              <a
+                class="address__street link--hover link--no-decoration"
+                href="https://goo.gl/maps/t1FT8zSSvb9LW3xy8"
+                target="_blank"
+                >m. Warszawa, Aleje Jerozolimskie 21</a
+              >
+            </li>
+            <li class="address__item link--hover">
+              <a
+                class="address__link link--hover link--no-decoration"
+                href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="address__item">
+              <a
+                class="address__link link--hover link--no-decoration"
+                href="tel:48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
