@@ -174,12 +174,6 @@ body {
 .banner {
   color: var(--font-color-secondary);
   background-color: var(--bgcolor-dark);
-}
-.banner__grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   padding: 21.4vh 0; /* 200px */
 }
 /* | TITLE */
