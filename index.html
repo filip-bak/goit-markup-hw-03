@@ -80,6 +80,7 @@
           </button>
         </div>
       </section>
+
       <!-- Skills -->
       <section class="skills section">
         <div class="container">
@@ -165,8 +166,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="team__name">John Doe</h4>
-              <p class="team__profession">Product Designer</p>
+              <div class="team__info">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__profession">Product Designer</p>
+              </div>
             </li>
             <li class="team__item">
               <img
@@ -176,8 +179,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="team__name">John Doe</h4>
-              <p class="team__profession">Frontend Developer</p>
+              <div class="team__info">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__profession">Frontend Developer</p>
+              </div>
             </li>
             <li class="team__item">
               <img
@@ -187,8 +192,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="team__name">John Doe</h4>
-              <p class="team__profession">Marketing</p>
+              <div class="team__info">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__profession">Marketing</p>
+              </div>
             </li>
             <li class="team__item">
               <img
@@ -198,8 +205,10 @@
                 width="270"
                 height="260"
               />
-              <h4 class="team__name">John Doe</h4>
-              <p class="team__profession">UI Designer</p>
+              <div class="team__info">
+                <h4 class="team__name">John Doe</h4>
+                <p class="team__profession">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -207,38 +216,40 @@
     </main>
 
     <footer class="footer section">
-      <div class="container">
-        <a class="logo link--no-decoration" href="./index.html"
-          ><span class="logo--primary">Web</span
-          ><span class="logo--secondary">Studio</span>
-        </a>
+      <div class="footer__grid container">
+        <div class="footer__grid-item">
+          <a class="logo link--no-decoration" href="./index.html"
+            ><span class="logo--primary">Web</span
+            ><span class="logo--secondary">Studio</span>
+          </a>
 
-        <address class="address">
-          <ul class="address__list">
-            <li class="address__item">
-              <a
-                class="address__street link--hover link--no-decoration"
-                href="https://goo.gl/maps/t1FT8zSSvb9LW3xy8"
-                target="_blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li class="address__item link--hover">
-              <a
-                class="address__link link--hover link--no-decoration"
-                href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li class="address__item">
-              <a
-                class="address__link link--hover link--no-decoration"
-                href="tel:48111111111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a
+                  class="address__street link--hover link--no-decoration"
+                  href="https://goo.gl/maps/t1FT8zSSvb9LW3xy8"
+                  target="_blank"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li class="address__item link--hover">
+                <a
+                  class="address__link link--hover link--no-decoration"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address__item">
+                <a
+                  class="address__link link--hover link--no-decoration"
+                  href="tel:48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
