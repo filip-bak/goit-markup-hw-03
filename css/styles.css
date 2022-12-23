@@ -15,9 +15,7 @@ ul {
 .link--no-decoration {
   text-decoration: none;
 }
-img {
-  display: block;
-}
+
 /* || Variables */
 :root {
   /* || FONTS */
@@ -87,6 +85,10 @@ img {
 .section {
   padding: 94px 0;
 }
+.img--block {
+  display: block;
+}
+
 /* || PSEUDO CLASSES */
 .hover:hover,
 .hover:focus-visible {
@@ -229,7 +231,6 @@ body {
   justify-content: center;
   gap: 30px;
 }
-
 .skill__title {
   margin-bottom: 10px;
 
@@ -252,6 +253,7 @@ body {
   justify-content: center;
   gap: 30px;
 }
+
 /* | TEAM */
 .team {
   background-color: var(--bgcolor-fade);
